@@ -448,12 +448,3 @@ def importXSI(xsiFile):
         counter += 1
     setChild(modelList, parentTracker)
     return modelList
-
-fileList = importXSI("C:/Users/Christian/Documents/Toontown/Toontown Corporate Clash/Ideas_n_Testing/Toon Rigging Experimentation/Spotify-1/char/suitA/suitA_cvs/dotXSI/sandbag.xsi")
-poleBone = fileList['HRC_props_joint-scale-sandbag.joint-scale-sandbag'].animationFCurves
-for name, frames in fileList['HRC_props_joint-scale-sandbag.joint-scale-sandbag'].animationFCurves.items():
-    print(name)
-    print (len(frames))
-    for i in frames:
-        print (frames.index(i))
-        print(i)
