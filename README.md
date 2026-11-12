@@ -15,7 +15,7 @@ from within the .mf files are assembled in the final scene.
 6. Select everything in the scene, then navigate to the export menu. Choose the .XSI option.
 7. Choose what you want to export. This exporter supports keyframes and IK chains for the most part so feel free to select that option.
 8. When prompted, write what you want the .xsi file to be named and save it to a folder of your choice.
-9. If not installed already, install the addon to Blender. This should be up to date to the most recent version of Blender as of publishing, let me know if something's wrong.
+9. If not installed already, install the addon to Blender, from the zip file located in the releases section. This should be up to date to the most recent version of Blender as of publishing, let me know if something's wrong.
 10. Navigate to your file and import it!
 
 NOTES:
